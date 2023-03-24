@@ -1,0 +1,164 @@
+body {
+   background-color: #B09B71;
+}
+#head {
+   text-align: center;
+   font-family: 'Press Start 2P', cursive;
+   font-size: 1.5rem;
+   color: #FEF2BF;
+}
+.notes{
+   font-size: 2rem;
+}
+#keys {
+   text-align: center;
+   padding: 5% 1%;
+}
+
+.key {
+   width: 60px;
+   height: 300px;
+   border-radius: 0px;
+   border-width: 0px;
+   box-shadow: 0px 15px 20px 0px #000;
+   position: absolute;
+}
+.a1{
+   left: 1rem;
+}
+.a2{
+   left: 5rem;
+}
+.a3{
+   left: 9rem;
+}
+.a4{
+   left: 13rem;
+}
+.a5{
+   left: 17rem;
+}
+.a6{
+   left: 21rem;
+}
+.a7{
+   left: 25rem;
+}
+.a9{
+   left: 29rem;
+}
+.a0{
+   left: 33rem;
+}
+.b1{
+   left: 37rem;
+}
+.b2{
+   left: 41rem;
+}
+.b3{
+   left: 45rem;
+}
+.b4{
+   left: 49rem;
+}
+.b5{
+   left: 53rem;
+}
+.b6{
+   left: 57rem;
+}
+.b7{
+   left: 61rem;
+}
+.b8{
+   left: 65rem;
+}
+.b9{
+   left: 69rem;
+}
+.b0{
+   left: 73rem;
+}
+.c1{
+   left: 77rem;
+}
+.c2{
+   left: 81rem;
+}
+
+.white {
+   color: white;
+   background-color: white;
+}
+
+.white:hover {
+   box-shadow: 0px 0px 0px 0px #000;
+}
+
+.black {
+   color: black;
+   background-color: black;
+   width: 40px;
+   height: 170px;
+   box-shadow: 0px 10px 5px 0px #413F42;
+}
+
+.black:hover {
+   box-shadow: 0px 2px 10px 0px #413F42;
+}
+
+.pressed {
+   box-shadow: 0px 2px 10px 0px #413F42;
+  opacity: 0.5;
+}
+.x1{
+   left: 3.5rem;
+}
+.x2{
+   left: 7.5rem;
+}
+.x3{
+   left: 15.5rem;
+}
+.x4{
+   left: 19.5rem;
+}
+.x5{
+   left: 23.5rem;
+}
+.x6{
+   left: 31.5rem;
+}
+.x7{
+   left: 35.5rem;
+}
+.x8{
+   left: 39.5rem;
+}
+.x9{
+   left: 47.5rem;
+}
+.x0{
+   left: 55.5rem;
+}
+.y1{
+   left: 59.5rem;
+}
+.y2{
+   left: 63.5rem;
+}
+.y3{
+   left: 67.5rem;
+}
+.y4{
+   left: 75.5rem;
+}
+.y5{
+   left: 79.5rem;
+}
+@media (max-width:1028px)  {
+   body{
+      transform: rotate(90deg);
+   }
+}
